@@ -5,6 +5,8 @@ This is the backend service used in the [`ce-grp-3a` e-commerce website project]
 It provides a REST API endpoint to receive and send back the text from frontend. 
 It is to test the comm between frontend and backend of http://ce-grp-3a-my-app2.sctp-sandbox.com/ after text is entered at textbox and "Send to Fraud Detection" is clicked
 
+![alt text](image.png)
+
 ---
 
 ## 📦 Prerequisites
