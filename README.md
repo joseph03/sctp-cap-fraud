@@ -29,7 +29,7 @@ docker push `<dockerhub-username>`/fraud-service:v1.0.1
 A new version has to be used everytime the image is updated. eg. v1.0.2
 
 ### effect the image for deployment 
-Update the version number (eg. v.1.0.1) in previous step to backend-deploy.yaml that cloned from sctp-cap-webCD repo
+Update the version number (eg. v.1.0.1) in previous step to backend-deploy.yaml that cloned from [sctp-cap-webCD repo](https://github.com/joseph03/sctp-cap-webCD)
 
 then git push to sctp-cap-webCD repo and perform
 argocd app sync my-app2  --prune
