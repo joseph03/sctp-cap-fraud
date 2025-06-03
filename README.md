@@ -23,6 +23,7 @@ after git clone, go to the git cloned folder and perform
 
 ### build and push image to your docker hub
 docker build -t <dockerhub-username>/fraud-service:v1.0.1 .
+
 docker push <dockerhub-username>/fraud-service:v1.0.1
 
 v1.0.1 has to be updated everytime the image is updated. eg. v1.0.2
