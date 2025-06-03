@@ -1,6 +1,8 @@
 # 🛡️ cap-fraud — Fraud Detection API
 
-This is the backend service for fraud detection in the `ce-grp-3a` e-commerce project. It provides a REST API endpoint for analyzing input text and returns whether it may be fraudulent.
+This is the backend service for fraud detection in [the `ce-grp-3a` e-commerce website project](http://ce-grp-3a-my-app2.sctp-sandbox.com/). 
+
+It provides a REST API endpoint to receive and send back the text from frontend. It is to test the comm between frontend and backend of http://ce-grp-3a-my-app2.sctp-sandbox.com/
 
 ---
 
