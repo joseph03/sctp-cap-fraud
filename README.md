@@ -26,7 +26,7 @@ docker build -t <dockerhub-username>/fraud-service:v1.0.1 .
 
 docker push <dockerhub-username>/fraud-service:v1.0.1
 
-v1.0.1 has to be updated everytime the image is updated. eg. v1.0.2
+A new version has to be used everytime the image is updated. eg. v1.0.2
 
 ### effect the image for deployment 
 Update the version number (eg. v.1.0.1) in previous step to backend-deploy.yaml that cloned from sctp-cap-webCD repo
