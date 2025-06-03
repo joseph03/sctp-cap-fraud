@@ -1,0 +1,23 @@
+{
+  "name": "fraud-service",
+  "version": "1.0.0",
+  "description": "Standalone fraud detection microservice",
+  "main": "fraud.js",
+  "scripts": {
+    "start": "node fraud.js",
+    "dev": "nodemon fraud.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
